@@ -1,0 +1,17 @@
+{
+  "name": "tutorial-tests",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "tap": "tap ./test/*.js",
+    "test": "npm run tap"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-scratch": "^5.0.0",
+    "tap": "^14.10.7"
+  },
+  "dependencies": {
+    "whisker-main": "git+https://gitlab+deploy-token-13:NRiPPX3fbpKk4b2rs5t2@gitlab.infosun.fim.uni-passau.de/se2/whisker/whisker-main.git#master"
+  }
+}
